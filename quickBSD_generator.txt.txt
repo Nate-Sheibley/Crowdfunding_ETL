@@ -1,0 +1,36 @@
+
+category as cat
+----
+category_id PK VARCHAR(16)
+category VARCHAR(32)
+
+subcategory as scat
+----
+subcategory_id PK VARCHAR(16)
+subcategory VARCHAR(32)
+
+contacts as c
+----
+contact_id PK INTEGER 
+first_name VARCHAR(32)
+last_name VARCHAR(32)
+email VARCHAR(128)
+
+compaign
+----
+cf_id PK INTEGER
+contact_id INTEGER FK >-< c.contact_id
+company_name VARCHAR(255)
+description VARCHAR(255)
+goal FLOAT
+pledged FLOAT
+outcome VARCHAR(16)
+backers_count INTEGER
+country VARCHAR(64)
+currency VARCHAR(4)
+launch_date DATE 
+end_date DATE
+staff_pick BOOLEAN
+spotlight BOOLEAN
+category_id VARCHAR(16) FK >- cat.category_id
+subcateogry_id VARCHAR(16) FK >- scat.subcategory_id
