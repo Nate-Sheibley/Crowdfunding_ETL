@@ -1,4 +1,4 @@
-
+# https://www.quickdatabasediagrams.com/
 category as cat
 ----
 category_id PK VARCHAR(16)
