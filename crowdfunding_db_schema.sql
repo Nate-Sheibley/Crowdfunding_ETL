@@ -42,3 +42,11 @@ CREATE TABLE "campaign" (
     PRIMARY KEY ("cf_id")
 
 );
+
+SELECT * FROM campaign;
+
+SELECT * FROM contacts;
+
+SELECT * FROM subcategory;
+
+SELECT * FROM category;
