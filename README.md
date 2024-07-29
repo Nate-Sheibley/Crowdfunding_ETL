@@ -14,3 +14,5 @@ PGAdmin4 used to load clean csv into postgres database, then query the database.
 Author: Nathan Sheibley
 Code referenced commented in line with the code as:
 * problem description : url referenced to solve
+
+Instructors: Elias, Karen, Brian
