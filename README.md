@@ -9,6 +9,9 @@ Python-pandas used to extract, transform and load data from raw .xlsx file to cl
 
 PGAdmin4 used to load clean csv into postgres database, then query the database.
 
+# Tools used
+Postgres, PGAdmin4, python-pandas
+
 # References
 
 Author: Nathan Sheibley
