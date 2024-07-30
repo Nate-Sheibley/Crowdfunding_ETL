@@ -39,8 +39,8 @@ CREATE TABLE "campaign" (
     "currency" VARCHAR(4) NOT NULL,
     "launch_date" DATE NOT NULL,
     "end_date" DATE NOT NULL,
-    "staff_pick" BOOLEAN,
-    "spotlight" BOOLEAN,
+--    "staff_pick" BOOLEAN,
+--    "spotlight" BOOLEAN,
     "category_id" VARCHAR(16) NOT NULL REFERENCES category(category_id),
     "subcateogry_id" VARCHAR(16) NOT NULL REFERENCES subcategory(subcategory_id),
     PRIMARY KEY ("cf_id")
@@ -56,4 +56,5 @@ SELECT * FROM subcategory;
 SELECT * FROM category;
 
 -- check dtype of a field in postgres https://stackoverflow.com/questions/3827828/how-to-check-type-of-value-in-postgres  
+--returns all as type "double precision" meaning the lack of desimal is a display setting not a datatype issue
 SELECT pg_typeof(goal) FROM campaign;
