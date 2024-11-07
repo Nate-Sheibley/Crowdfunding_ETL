@@ -1,5 +1,6 @@
 # Crowdfunding_ETL
-UCBerkeley-Ext Data Analytics Bootcamp Project 2
+
+ETL pipeline for crowdfunding data, from excel file to postgres database.
 
 # Overview
 
@@ -15,5 +16,8 @@ Postgres, PGAdmin4, python-pandas
 # References
 
 Author: Nathan Sheibley
+
+UCBerkeley-Ext Data Analytics Bootcamp Project 2
+
 Code referenced commented in line with the code as:
 * problem description : url referenced to solve
